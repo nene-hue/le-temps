@@ -13,15 +13,15 @@
     <div class="weather-app">
     <header>
       
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-form-input" id="search-form-input" />
         <input type="submit" value="search" class="search-form-submit" />
       </form>
     </header>
     <div class="weather-app-data">
     <main >
       <div >
-      <h1 class="weather-app-city">Paris</h1>
+      <h1 class="weather-app-city" id="city">Paris</h1>
       </div>
       <div class="weather-app-temperature-wrapper">
       <p class="weather-app-details">
@@ -37,6 +37,7 @@
     </div>
     
   </body>
+  <script src="src/index.js"></script>
   <footer>
     This project is coded by
     <a href="https://github.com/nene-hue" target="_blank">Neo Montshiwa</a>, is
