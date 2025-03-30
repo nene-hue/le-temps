@@ -38,6 +38,7 @@ header {
 }
 main {
   padding: 30px 0;
+  width: 100%;
 }
 .weather-app-city {
   margin: 0;
@@ -52,6 +53,11 @@ main {
 }
 strong {
   color: #f65282;
+}
+.weather-app-temperature-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .weather-app-temperature-container {
   display: flex;
